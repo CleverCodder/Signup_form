@@ -126,10 +126,3 @@ function lettersonly(input) {
 	input.value = input.value.replace(regex, '');
 }
 
-Swal.fire({
-	position: 'center',
-	icon: 'error',
-	title: 'Opps! Email Or Username is invalid.',
-	showConfirmButton: true,
-	timer: 3400,
-});
