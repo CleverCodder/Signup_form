@@ -15,8 +15,7 @@ sign_up_btn.addEventListener('click', () => {
 });
 
 sign_in_btn.addEventListener('click', () => {
-	console.log(sign_in_btn)
-	console.log("I am here")
+	/
 	container.classList.remove('sign-up-mode');
 });
 
