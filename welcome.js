@@ -150,3 +150,9 @@ firebase.auth().onAuthStateChanged((user) => {
 // 	.once('value', function (snapshot) {
 // 		console.log(snapshot.val());
 // 	});
+
+
+
+console.log("hello")
+console.log("Con")
+console.log("dmdjhdd")
