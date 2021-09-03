@@ -133,5 +133,3 @@ Swal.fire({
 	showConfirmButton: true,
 	timer: 3400,
 });
-
-console.log("dhgf")
