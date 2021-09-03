@@ -81,8 +81,7 @@ $('#sign-up-form').validate({
 		},
 		password: {
 			required: '<p class="chip">Please provide a password</p>',
-			minlength:
-				'<p class="chip">Your password must be at least 8 characters long</p>',
+			minlength: '<p class="chip">Your password must be at least 8 characters long</p>',
 		},
 	},
 });
