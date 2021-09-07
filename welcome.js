@@ -80,8 +80,7 @@ firebase.auth().onAuthStateChanged((user) => {
 					} else if (weatherType.textContent == "Snow") {
 						document.body.style.backgroundImage = "url('images/snow.jpg')";
 					} else if (weatherType.textContent == "Thunderstorm") {
-						document.body.style.backgroundImage =
-							"url('images/thunderstorm.jpg')";
+						document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
 					}
 				}
 
