@@ -138,6 +138,9 @@ logout.addEventListener("click", (e) => {
 firebase.auth().onAuthStateChanged((user) => {
 	if (user) {
 		console.log(user.email + " is logged in!");
+		console.log("user")
+		console.log(user)
+		console.log("test")
 	} else {
 		window.location.href = "index.html";
 	}
